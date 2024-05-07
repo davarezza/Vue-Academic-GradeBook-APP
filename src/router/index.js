@@ -28,6 +28,14 @@ const router = createRouter({
         title: 'Beranda'
       }
     },
+    {
+      path: '/nilai',
+      name: 'nilai',
+      component: () => import('../views/NilaiView.vue'),
+      meta: {
+        title: 'Nilai'
+      }
+    },
   ]
 })
 

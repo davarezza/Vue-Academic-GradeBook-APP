@@ -8,7 +8,7 @@
             <div class="nav-items">
                 <div class="item"><router-link active-class="active" to="/">Home</router-link></div>
                 <div class="item"><router-link active-class="active" to="/about">About</router-link></div>
-                <div class="item"><router-link active-class="active" to="/">Nilai</router-link></div>
+                <div class="item"><router-link active-class="active" to="/nilai">Nilai</router-link></div>
                 <div class="item"><router-link active-class="active" to="/beranda">Kalkulator</router-link></div>
 
                 <div class="item-button"><router-link to="/" type="button">Login</router-link></div>

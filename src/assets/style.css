@@ -58,18 +58,14 @@ header .item {
     cursor: pointer;
 }
 
-header .item:hover, header .item:active {
-    border-bottom: 3px solid #64d6f4;
+header .item:hover {
+    font-weight: 600;
 }
 
 .active {
     border-bottom: 3px solid #64d6f4;
     color: #274d8a;
     font-weight: 600;
-}
-
-header .item:hover:not(.active) {
-    border-bottom: 3px solid #64d6f4;
 }
 
 header .item-button a {
