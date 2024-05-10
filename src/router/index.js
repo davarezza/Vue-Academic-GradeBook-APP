@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: 'Halaman Utama' 
+        title: 'Home' 
       }
     },
     {
@@ -17,7 +17,7 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue'),
       meta: {
-        title: 'Tentang Kami'
+        title: 'About'
       }
     },
     {
@@ -33,7 +33,7 @@ const router = createRouter({
       name: 'nilai',
       component: () => import('../views/NilaiView.vue'),
       meta: {
-        title: 'Nilai'
+        title: 'Grade'
       }
     },
   ]
