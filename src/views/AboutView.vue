@@ -53,28 +53,6 @@
       </p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="position-relative">
-        <img
-          src="/img/nusa1.jpg"
-          class="img-fluid"
-          alt="Gambar"
-          style="max-height: 350px; width: 100%; filter: brightness(45%)"
-        />
-        <div class="text-center position-absolute top-50 start-50 translate-middle">
-          <h5 class="text-white">CREATOR WEBSITE</h5>
-          <h5 class="text-white">M Dava Al Rezza</h5>
-          <p class="text-white">
-            Cari tahu lebih banyak tentang apa yang bisa saya lakukan dan mulailah perjalananmu
-            dalam membangun situs web yang keren!
-          </p>
-          <br />
-          <router-link to="/" class="btn1 btn-danger">Check Creator Profile</router-link>
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <style scoped>
